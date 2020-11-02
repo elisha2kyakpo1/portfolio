@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": " tailwind build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisha2kyakpo1/portifolioProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisha2kyakpo1/portifolioProject/issues"
+  },
+  "homepage": "https://github.com/elisha2kyakpo1/portifolioProject#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}

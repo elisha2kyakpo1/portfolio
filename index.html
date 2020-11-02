@@ -5,24 +5,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elisha's Portfolio</title>
-    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="stylesheet" href="public/style.css" />
 </head>
 
-<body>
-    <div class="container">
-        <header class="navbar">
-            <ul class="nav-links">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact me</a></li>
-                <li><a href="about.html">About me</a></li>
-            </ul>
-        </header>
-        <div class="personal-info">
-            <div class="my-photo">
-                <img class="photo" src="images/myP.jpg" alt="Personal photo" width="200px" />
+<body class="m-0 p-0">
+        <header class="justify-center align-center bg-blue-900">
+					<nav class="flex pr-4 bg-red-300 container flex-1">
+            <ul class="flex justify-center gap-10 list-none text-xl">
+                <li><a class="text-blue-100 no-underline ml-auto hover:bg-red-300" href="Home.html">Home</a></li>
+                <li><a class="text-blue-100 no-underline hover:bg-red-200" href="articles.html">Articles</a></li>
+                <li><a class="text-blue-100 no-underline hover:bg-red-200" href="projects.html">Projects</a></li>
+                <li><a class="text-blue-100 no-underline hover:bg-red-200" href="resume.html">Resume</a></li>
+                <li><a class="text-blue-100 no-underline hover:bg-red-200" href="contact.html">Contact me</a></li>
+                <li><a class="text-blue-100 no-underline hover:bg-red-200" href="about.html">About me</a></li>
+						</ul>
+						<div class="flex ml-auto flex-col cursor-pointer hover:bg-blue-700 justify-center gap-1">
+							<div class="w-10 h-1 bg-blue-500"></div>
+							<div class="w-10 h-1 bg-blue-500"></div>
+							<div class="w-10 h-1 bg-blue-500"></div>
+
+						</div>
+					</nav>
+				</header>
+				
+			<main>
+        <div class="">
+            <div class="">
+                <img class="photo" src="assets/images/myP.jpg" alt="Personal photo" width="200px" />
             </div>
 
             <div class="about">
@@ -32,8 +41,16 @@
                 </p>
                 <p>Quality and attention to details is my middle name.</p>
             </div>
-        </div>
-    </div>
+				</div>
+				<form action="#">
+				<fieldset class="flex col px-4">
+					<legend class="te">Contact Me</legend>
+					<input class="font-bold text-lg" type="text" placeholder="Enter name...">
+					<input class="font-bold text-lg" type="email" placeholder="Enter email..">
+					<input class="font-bold text-lg" type="submit" value="Send">
+				</fieldset>
+				</form>
+			</main>
 </body>
 
 </html>
