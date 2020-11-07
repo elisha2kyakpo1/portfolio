@@ -1,7 +1,7 @@
 # __Hi there 👋:heart: !__
 
 ### __Portfolio Project!__
-## This is my on going Personal portfolio project.
+## This is my on-going Personal portfolio project.
 
 
 - The project uses tailwind CSS, which is a A utility-first CSS framework for
