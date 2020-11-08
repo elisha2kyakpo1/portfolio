@@ -11,11 +11,11 @@
 	<body class="m-0 p-0 bg-gradient-to-br from-red-400 to-pink-100">
 		<header class="flex justify-around content-center">
 			<nav class="flex pr-4 flex-1 container flex-1">
-				<ul class="sm:invisible md:visible lg:visible xl:visible flex flex-1 lg:justify-end ml-auto justify-center gap-10 list-none text-xl">
-					<li><a class="text-blue-300 no-underline ml-auto" href="Home.html">Home</a></li>
-					<li><a class="text-blue-300 no-underline" href="articles.html">Articles</a></li>
-					<li><a class="text-blue-300 no-underline" href="projects.html">Projects</a></li>
-					<li><a class="text-blue-300 no-underline" href="resume.html">Resume</a></li>
+				<ul class=" md:visible  flex flex-1 lg:justify-end ml-auto justify-center gap-10 list-none text-xl">
+					<li><a class="text-red-900 no-underline ml-auto" href="Home.html">Home</a></li>
+					<li><a class="text-red-900 no-underline" href="articles.html">Articles</a></li>
+					<li><a class="text-red-900 no-underline" href="projects.html">Projects</a></li>
+					<li><a class="text-red-900 no-underline" href="resume.html">Resume</a></li>
 				</ul>
 				<div class="mx-auto lg:invisible flex justify-center">
 					<img class="w-8 h-8 mx-auto cursor-pointer my-auto" role="button" src="assets/icons/menu.png" alt="menu">
@@ -23,15 +23,16 @@
 			</nav>
 		</header>
 		<main class="px-8">
-			<section class="">
+			<section class="relative">
 				<div class="">
-					<img class="w- sm:w-min rounded-full" src="assets/images/myP.jpg" alt="Personal photo" width="200px" />
+					<img class="object-cover" src="assets/images/myP.jpg" width="700" height="400"  alt="Personal photo" />
 				</div>
-				<div class="pl-3 py-4 rounded-lg bg-gradient-to-r from-teal-200 to-blue-100 shadow-md">
-					<h1 class="text-blue-900"></h1>
-					<p class="sm:font-medium font-bold text-blue-900"> Hi, I'm Elisha Kyakopo, a full stack software developer. Currently looking for remote and freelance work,
+				<div class="pl-4 absolute bottom-0 z-10 left-0">
+				<!-- <div class="pl-3 py-4 rounded-lg bg-gradient-to-r from-teal-200 to-blue-100 shadow-md"> -->
+					<h1 class="text-white">Hi, I'm Elisha Kyakopo </h1>
+					<p class="sm:font-medium font-bold text-white">A full stack software developer. Currently looking for remote and freelance work,
 						to prove my skills. </p>
-					<p class="sm:font-medium font-bold text-blue-900">Quality and attention to details is my middle name.</p>
+					<p class="sm:font-medium font-bold text-white">Quality and attention to details is my middle name.</p>
 				</div>
 			</section>
 			<details class="">
@@ -62,6 +63,13 @@
 					<h4>My project</h4>
 				</article>
 			</section>
+			<footer>
+				<div>
+					<h4>All rights reserved</h4>
+					<p>Developed and maintained by Elisha kyakopo</p>
+					<small></small>
+				</div>
+			</footer>
 		</main>
 	</body>
 
