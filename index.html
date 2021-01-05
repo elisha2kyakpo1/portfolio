@@ -1,115 +1,335 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elisha's Portfolio</title>
-    <link rel="stylesheet" href="public/style.css" />
-  </head>
-
-  <body class="m-0 p-0 bg-teal-200">
-    <header class="flex justify-around content-center">
-      <nav class="flex pr-4 flex-1 container justify-center flex-1">
-        <ul class=" md:visible flex py-3 flex-1 lg:justify-center pr-2 rounded-full bg-blue-900 mx-8 justify-center gap-10 list-none text-xl">
-          <li><a class="text-blue-100   no-underline " href="Home.html">Elisha kyaakopo</a></li>
-          <li><a class="text-blue-600 underline-red ml-auto" href="Home.html">Home</a></li>
-          <li><a class="text-blue-600  no-underline" href="articles.html">Articles</a></li>
-          <li><a class="text-blue-600  no-underline" href="projects.html">Projects</a></li>
-          <li><a class="text-blue-600  no-underline" href="resume.html">Download resume</a></li>
+<html lang='en'>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3YCCTSCBGD"></script>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' crossorigin='anonymous'>
+  <link rel='preconnect' href='https://fonts.gstatic.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com'>
+  <link href='https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100;300;500;700&family=Roboto:wght@500&display=swap' rel='stylesheet'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link href='assets/styles/style.css' rel='stylesheet'>
+  <title>Elisha Kyakopo - Portfolio</title>
+</head>
+<body>
+  <header class = 'd-flex'>
+    <nav>
+      <i class='fa fa-bars d-flex d-md-none 
+          position-absolute hamburger-icon text-white text-decoration-none'>
+      </i>
+      <div class = 'hidden-menu position-absolute poppins justify-content-end'>
+          <ul class="list-unstyled d-flex flex-column position-relative my-5">
+            <li class = 'position-relative'>
+              <span class = 'numbers position-absolute poppins'>01</span>
+              <a class = 'text-white text-decoration-none ' 
+              href="#portfolio">Portfolio</a>
+            </li>
+            <li class = 'position-relative'>
+              <span class = 'numbers position-absolute poppins'>02</span>
+              <a class = 'text-white text-decoration-none ' 
+              href="#services">Projects</a>
+            </li>
+            <li class = 'position-relative'>
+              <span class = 'numbers position-absolute poppins'>03</span>
+              <a class = 'text-white text-decoration-none' 
+              href="#contact">Contact</a>
+            </li>
+          </ul>
+          <i class='red-ball position-absolute rounded-circle'></i>
+      </div>
+      <div class="menu-md position-absolute">
+        <ul class="list-unstyled d-none d-md-flex">
+          <li><a href="#portfolio" class="m-3 text-white text-decoration-none ">Portfolio</a></li>
+          <li><a href="#services" class="m-3 text-white text-decoration-none ">Projects</a></li>
+          <li><a href="#contact" class="m-3 text-white text-decoration-none ">Contact</a></li>
         </ul>
-        <div class="mx-auto lg:invisible flex justify-center">
-          <img class="w-8 h-8 mx-auto cursor-pointer my-auto" role="button" src="assets/icons/menu.png" alt="menu">
+      </div>
+    </nav>
+    <section class = 'about text-white d-flex'>
+      <span class = 'number1 numbers position-absolute poppins'>01</span>
+      <span class = 'position-absolute poppins hello' id = 'hello'>Hello I'm</span>
+      <i class='red-ball position-absolute rounded-circle'>
+      </i>
+      <h1 class='position-absolute playfair-display name'>
+        Elisha Kyakopo
+      </h1>
+      <div class='position-absolute poppins introduction'>
+        Hello! I am a software developer! I can help you build a product, 
+        feature or website. Look through some of my work and experience! 
+        If you like what you see and have a project you need coded, don’t 
+        hesitate, contact me.
+      </div>
+      <span class = 'red position-absolute roboto text-nowrap'>
+        meet me online
+      </span>
+      <i class='see-separator position-absolute'>
+      </i>
+      <ul class='d-flex position-absolute list-unstyled'>
+        <li>
+          <a target = 'blank' href = '' 
+          class='fa d-flex icon fa-github m-1 m-md-3 p-1 text-white text-decoration-none'></a>
+        </li>
+        <li>
+          <a target = 'blank' href = '' 
+          class='fa icon d-flex fa-twitter m-1 m-md-3 p-1 text-white text-decoration-none'></a>
+        </li>
+        <li>
+          <a target = 'blank' href = '' 
+          class='fa icon d-flex fa-linkedin text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
+           </a>
+        </li>
+        <li>
+          <a target = 'blank' href = '' 
+          class='fa icon d-flex fa-envelope text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
+           </a>
+        </li>
+      </ul>
+    </section>
+    <section class = 'portfolio d-flex text-white'>
+      <span class = 'number2 numbers position-absolute poppins'>02</span>
+      <span class = 'position-absolute poppins my-works'>My recent work</span>
+      <h1 class = 'playfair-display position-absolute' id = "portfolio">Portfolio</h1>
+    </section>
+  </header>  
+  <main>
+    <section class="projects text-white">
+      <div class = 'grid-full'>
+        <div class="main-project position-relative">
+          <h1 class="poppins">
+            The new york times
+          </h1>
+          <div class = 'd-flex flex-row poppins'>
+            <div class = 'languages mx-2 p-2 col d-flex justify-content-center'>
+              HTML/CSS
+            </div>
+            <div class = 'project-description mx-2 p-2 col-6 justify-content-center'>
+							A static web page of the new york times 
+            </div>
+          </div>
+            <a target = 'blank'
+                href = ''
+                class='live position-absolute p-2 d-flex justify-content-evenly
+                align-items-baseline text-decoration-none'>
+                See live
+                <i class = 'fa fa fa-external-link'></i>
+            </a>  
+            <a target = 'blank'
+              href = ''
+              class='github position-absolute p-2 d-flex justify-content-evenly
+              align-items-baseline text-decoration-none'>
+              See source
+              <i class = 'fa fa-github'></i>
+            </a>   
         </div>
-      </nav>
-    </header>
-    <main class="mx-8">
-      <section class="my-8 bg-teal-300 p-5 rounded-2xl shadow-md">
-        <div>
-          <img class="object-fit-contain rounded-full" src="/assets/images/photo.JPG" width="100" alt="Personal photo" />
+      </div>
+    </section>
+    <section class="projects mt-3 text-white">
+      <div class = 'grid-full order-2'>
+        <div class = 'ruby-game'>
         </div>
-        <div class="pl-4 bottom-0 z-10 left-0">
-          <h1 class="text-blue-800 text-2xl">Hi, I'm Elisha Kyakopo </h1>
-          <p class="sm:font-medium text-lg font-bold text-blue-800">A full stack software developer. Currently looking for remote and freelance work. </p>
-          <p class="sm:font-medium text-lg font-bold text-blue-800">Quality and attention to details is my middle name.</p>
-        </div>
-      </section>
-      <section>
-        <h4 class="text-center">PROJECTS</h4>
-        <div class="lg:flex md:flex md:flex-wrap justify-around content-center">
-        <article class="flex flex-col bg-teal-300 justify-content-center  my-2 shadow-md rounded-lg">
-					<div class="bg-blue-900 p-4 rounded-t">
-						<h4 class="text-blue-300 font-bold text-2xl text-center mx-auto">My project</h4>
-						</div>
-					<img src="assets/images/counters-bg.jpg" width="150" alt="photo">
-          <div class="flex justify-content-between">	
-            <a class="no-underline text-blue-100 block bg-blue-600 m-1 mx-auto  px-2 py-1" href="#">Code</a>
-            <a class="no-underline text-blue-100 block bg-red-500 m-1 mx-auto px-2 py-1" href="#">Live Demo</a>
+      </div>
+      <div class = 'grid-full order-1'>
+        <div class="tic-tac-toe position-relative">
+          <h1 class="poppins">
+            Tic-tac-toe game
+          </h1>
+          <div class = 'd-flex flex-row poppins'>
+            <div class = 'languages mx-2 p-2 col-2 d-flex justify-content-center'>
+              Ruby
+            </div>
+            <div class = 'project-description mx-2 p-2 col justify-content-center'>
+              A game in which two players take turns putting circles and crosses on a 3x3 grid 
+              and try to get three of the same symbols following the game rules. 
+            </div> 
           </div>
-        </article>
-        <article class="flex flex-col bg-teal-300 my-2 justify-content-center  shadow-md rounded-lg">
-					<div class="bg-blue-900 p-4 rounded-t">
-					<h4 class="text-blue-300 font-bold text-2xl text-center mx-auto">My project</h4>
-					</div>
-					<img src="assets/images/work-2.jpg" width="150" alt="photo">
-          <div class="flex justify-content-between">
-            <a class="no-underline text-blue-100 block bg-blue-600 m-1 mx-auto  px-2 py-1" href="#">Code</a>
-            <a class="no-underline text-blue-100 block bg-red-500 m-1 mx-auto px-2 py-1" href="#">Live Demo</a>
-          </div>
-        </article>
-        <article class="flex flex-col bg-teal-300 my-2 justify-content-center  shadow-md rounded-lg">
-					<div class="bg-blue-900 p-4 rounded-t">
-						<h4 class="text-blue-300 font-bold text-2xl text-center mx-auto">My project</h4>
-					</div>
-						<img src="assets/images/work-1.jpg" width="150" alt="photo">
-          <div class="flex justify-content-between">
-            <a class="no-underline text-blue-100 block bg-blue-600 m-1 mx-auto  px-2 py-1" href="#">Code</a>
-            <a class="no-underline text-blue-100 block bg-red-500 m-1 mx-auto px-2 py-1" href="#">Live Demo</a>
-          </div>
-        </article>
-        <article class="flex flex-col bg-teal-300 my-2 justify-content-center  shadow-md rounded-lg">
-					<div class="bg-blue-900 p-4 rounded-t">
-						<h4 class="text-blue-300 font-bold text-2xl text-center mx-auto">My project</h4>
-						</div>
-					<img src="assets/images/post-3.jpg" width="150" alt="photo">
-          <div class="flex justify-content-between">
-            <a class="no-underline text-blue-100 block bg-blue-600 m-1 mx-auto px-2 py-1" href="#">Code</a>
-            <a class="no-underline text-blue-100 block bg-red-500 m-1 mx-auto px-2 py-1" href="#">Live Demo</a>
-          </div>
-        </article>
-        <article class="flex-col bg-teal-300 my-2 justify-content-center  shadow-md rounded-lg">
-					<div class="bg-blue-900 p-4 rounded-t">
-						<h4 class="text-blue-300 font-bold text-2xl text-center mx-auto">My project</h4>
-						</div>
-					<img src="assets/images/post-2.jpg" width="150" alt="photo">
-          <div class="flex justify-content-between">
-            <a class="no-underline text-blue-100 block bg-blue-600 m-1 mx-auto  px-2 py-1" href="#">Code</a>
-            <a class="no-underline text-blue-100 block bg-red-500 m-1 mx-auto px-2 py-1" href="#">Live Demo</a>
-          </div>
-        </article>
-        </div>
-      </section>
-      <aside>
-        <details class="my-20 pl-4">
-          <summary class="cursor-pointer outline-none text-blue-900 font-bold text-2xl">Contact me</summary>
-          <form action="#">
-            <fieldset class=" px-4 ">
-              <legend class="rounded-lg">Leave a Message</legend>
-              <input class="font-bold block my-3 py-3 outline-none pl-2  text-lg rounded-md py-1" type="text" placeholder="Enter name...">
-              <input class="font-bold block my-3 py-3 outline-none pl-2  text-lg rounded-md py-1" type="email" placeholder="Enter email..">
-              <input class="font-bold block my-2 px-20 py-3 rounded py-1 cursor-pointer bg-blue-500 text-blue-100 border-none w-25 text-lg" type="submit" value="Send">
-            </fieldset>
-          </form>
-        </details>
-      </aside>
-      <footer class="flex justify-center align-bottom mt-10">
-        <div class="flex justify-between">
-          <div class="flex justify-content-center">
-          <p>Developed and maintained by Elisha Kyakopo</p>
-          </div>
-          <small></small>
-        </div>
-      </footer>
-    </main>
-  </body>
+          <a target = 'blank'
+              href = ''
+              class='live position-absolute p-2 d-flex justify-content-evenly
+              align-items-baseline text-decoration-none'>
+              See live
+              <i class = 'fa fa fa-external-link'></i>
+          </a>  
 
+          <a target = 'blank'
+            href = ''
+            class='github position-absolute p-2 d-flex justify-content-evenly
+            align-items-baseline text-decoration-none'>
+            See source
+            <i class = 'fa fa-github'></i>
+          </a>         
+                  
+        </div>
+      </div>
+    </section>
+    <section class="projects mt-1 text-white">
+      <div class = 'grid-two-rows'>
+        <div class = 'shop-project position-relative'>
+          <span class = 'author mx-2 p-2 position-absolute'>
+            The Next Web page
+          </span>
+        </div>
+        <div class = 'shop-project-mini position-relative'>
+          <span class = 'author mx-2 p-2 position-absolute'>
+            Telegram bot
+          </span>
+        </div>
+      </div>
+      <div class = 'grid-full'>
+        <div class="shop-main-project position-relative">
+          <h1 class="poppins">
+            Online shop
+          </h1>
+          <div class = 'd-flex flex-row poppins'>
+            <div class = 'languages mx-2 p-2 d-flex col-2 justify-content-center'>
+              HTML/CSS
+            </div>
+            <div class = 'project-description mx-2 p-2 col justify-content-center'>
+              Implementation of a responsive Online Shop website that fits on different 
+              screen sizes depending on the device used. 
+            </div>             
+          </div>          
+          <a target = 'blank'
+              href = ''
+              class='live position-absolute p-2 d-flex justify-content-evenly
+              align-items-baseline text-decoration-none'>
+              See live
+              <i class = 'fa fa fa-external-link'></i>
+          </a>  
+
+          <a target = 'blank'
+          href = ''
+          class='github position-absolute p-2 d-flex justify-content-evenly
+          align-items-baseline text-decoration-none'>
+          See source
+          <i class = 'fa fa-github'></i>
+        </a>  
+        </div>
+      </div>
+    </section>
+    <section class="about-me p-1 p-md-5 poppins text-white">
+      <div class = 'my-knowledge' id = 'services'>
+        <div class = 'knowledge d-flex flex-column p-3'>
+            <div class="box box-green rounded-circle p-3 d-flex 
+            justify-content-center align-items-center">
+              <i class = 'fa fa-hashtag'></i>
+            </div>            
+            <h1>Languages</h1>
+            <ul class = 'd-flex flex-column justify-content-evenly'>
+              <li>Ruby</li>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+        </div>
+        <div class = 'knowledge d-flex flex-column p-3'>
+          <div class="box box-blue rounded-circle p-3 d-flex 
+          justify-content-center align-items-center">
+            <i class = 'fa fa-compass px-1'></i>
+          </div>            
+          <h1>Frameworks</h1>
+          <ul class = 'd-flex flex-column justify-content-evenly'>
+            <li>Rails</li>
+            <li>Bootstrap</li>
+            <li>Rspec</li>
+          </ul>
+        </div>
+        <div class = 'knowledge d-flex flex-column p-3'>
+          <div class="box box-yellow rounded-circle p-3 d-flex 
+          justify-content-center align-items-center">
+            <i class = 'fa fa-lightbulb-o px-1'></i>
+          </div>            
+          <h1>Skills</h1>
+          <ul class = 'd-flex flex-column justify-content-evenly'>
+            <li>Github</li>
+            <li>Collaborative programming</li>
+            <li>Terminal</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class = 'knowledge d-flex flex-column p-3'>
+          <div class="box box-red rounded-circle p-3 d-flex 
+          justify-content-center align-items-center">
+            <i class = 'fa fa-heart px-1'></i>
+          </div>            
+          <h1>Soft Skills</h1>
+          <ul class = 'd-flex flex-column justify-content-evenly'>
+            <li>Team work</li>
+            <li>English fluency</li>
+            <li>Leadership</li>
+            <li>Problem-solving</li>
+            <li>Patience</li>
+            <li>Adaptability</li>
+            <li>Self-learner</li>
+          </ul>
+        </div>  
+      </div>
+      <div class = 'description'>
+        <span class = 'number1 numbers'>03</span>   
+        <span class = 'my-works'>some words</span>
+        <h1 class = 'playfair-display'>About me</h1>   
+        <p>Full Stack Developer’ 
+          Self-motivated and fast learner proficient with
+          Linux and Windows Operating Systems. Looking to develop software that can help
+           peoples’ lives to be easier.
+        </p>  
+        <span class = 'get-my-resume mt-5 d-none d-md-flex'>
+          <a target = 'blank' href = ''>
+            Get my resume
+            <i class = 'fa fa-upload'></i>
+          </a>
+        </span>
+      </div>
+    </section>
+    <section class="contact position-relative text-white poppins pt-2">
+      <div id = 'contact' class = 'd-flex align-items-baseline flex-column flex-md-row'>
+        <div>
+          <span class = 'number1 numbers'>04</span>  
+          <h6>Interested in collaborating</h6> 
+        </div>        
+        <ul class='d-flex list-unstyled justify-content-evenly'>
+          <li>
+            <a target = 'blank' href = '' 
+            class='fa d-flex fa-github icon m-1 m-md-3 p-1 text-white text-decoration-none'></a>
+          </li>
+          <li>
+            <a target = 'blank' href = '' 
+            class='fa d-flex fa-twitter icon m-1 m-md-3 p-1 text-white text-decoration-none'></a>
+          </li>
+          <li>
+            <a target = 'blank' href = '' 
+            class='fa d-flex fa-linkedin icon text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
+             </a>
+          </li>
+          <li>
+            <a target = 'blank' href = '' 
+            class='fa d-flex fa-envelope icon text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
+             </a>
+          </li>
+        </ul>
+        <span class = 'get-my-resume mt-3 d-flex d-md-none mx-auto'>
+          <a target = 'blank' href = ''>
+            Get my resume
+            <i class = 'fa fa-upload'></i>
+          </a>
+        </span>
+      </div>      
+    </section>
+  </main>
+  <footer class = 'd-flex mt-2 position-relative flex-column playfair-display justify-content-center'>
+    <div class="d-flex align-items-center flex-column">
+      <span class = 'text-white'>&copy; 2020, Elisha Kyakopo</span>
+      <div class = 'text-white'>
+        <ul class="list-unstyled d-flex flex-column flex-md-row">
+          <li class = 'm-2'>Acknowledgments</li>
+          <li class = 'm-2'><a target = 'blank' class = 'text-white' href = 'https://www.microverse.org/'>Microverse</a></li>
+          <li class = 'm-2'><a class = 'text-white' target = 'blank' href = ''></a></li>
+          <li class = 'm-2'><a class = 'text-white' target = 'blank' href =''></a></li>
+          <li class = 'm-2'><a class = 'text-white' target = 'blank' href =''></a></li>
+        </ul>
+      </div>  
+    </div>
+  </footer>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js' integrity='sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW' crossorigin='anonymous'></script>
+</body>
 </html>
