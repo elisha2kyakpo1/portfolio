@@ -20,10 +20,12 @@ body {
   --box-color: #222123;
 }
 
-/* header */
-
 .about * {
   left: 547px;
+}
+
+.top-nav {
+  justify-content: flex-end;
 }
 
 header {
@@ -34,8 +36,16 @@ header h1 {
   font-size: 110px;
 }
 
+.nav-small li {
+  list-style: none;
+}
+
+.nav-small li a {
+  font-size: 30px;
+}
+
 .name {
-  top: 326px;
+  top: 226px;
   position: absolute;
   width: 484px;
   height: 220px;
@@ -532,7 +542,7 @@ footer {
   }
 
   .about ul {
-    top: 490px;
+    /* top: 490px; */
     left: 16px;
   }
 

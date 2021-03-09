@@ -13,44 +13,44 @@
   <title>Elisha Kyakopo - Portfolio</title>
 </head>
 <body>
-  <header class = 'd-flex'>
+  <header>
     <nav>
-      <i class='fa fa-bars d-flex d-md-none 
-          position-absolute hamburger-icon text-white text-decoration-none'>
-      </i>
-      <div class = 'hidden-menu position-absolute poppins justify-content-end'>
-          <ul class="list-unstyled d-flex flex-column position-relative my-5">
-            <li class = 'position-relative'>
-              <span class = 'numbers position-absolute poppins'>01</span>
-              <a class = 'text-white text-decoration-none ' 
-              href="#portfolio">Portfolio</a>
-            </li>
-            <li class = 'position-relative'>
-              <span class = 'numbers position-absolute poppins'>02</span>
-              <a class = 'text-white text-decoration-none ' 
-              href="#services">Projects</a>
-            </li>
-            <li class = 'position-relative'>
-              <span class = 'numbers position-absolute poppins'>03</span>
-              <a class = 'text-white text-decoration-none' 
-              href="#contact">Contact</a>
-            </li>
-          </ul>
-          <i class='red-ball position-absolute rounded-circle'></i>
-      </div>
-      <div class="menu-md position-absolute">
-        <ul class="list-unstyled d-none d-md-flex">
-          <li><a href="#portfolio" class="m-3 text-white text-decoration-none ">Portfolio</a></li>
-          <li><a href="#services" class="m-3 text-white text-decoration-none ">Projects</a></li>
+      <div class="d-flex top-nav">
+        <ul class="nav-small d-none mt-5 d-md-flex">
+          <li><a href="#about" class="m-3 text-white text-decoration-none ">About</a></li>
+          <li><a href="#projects" class="m-3 text-white text-decoration-none ">Projects</a></li>
           <li><a href="#contact" class="m-3 text-white text-decoration-none ">Contact</a></li>
         </ul>
       </div>
     </nav>
+    <div>
+      <nav>
+        <i class='fa fa-bars d-flex d-md-none 
+            position-absolute hamburger-icon text-white text-decoration-none'>
+        </i>
+        <div class = 'hidden-menu position-absolute poppins justify-content-end'>
+            <ul class="list-unstyled d-flex flex-column position-relative my-5">
+              <li class = 'position-relative'>
+                <span class = 'numbers position-absolute poppins'>01</span>
+                <a class = 'text-white text-decoration-none ' 
+                href="#about">About</a>
+              </li>
+              <li class = 'position-relative'>
+                <span class = 'numbers position-absolute poppins'>02</span>
+                <a class = 'text-white text-decoration-none ' 
+                href="#projects">Projects</a>
+              </li>
+              <li class = 'position-relative'>
+                <span class = 'numbers position-absolute poppins'>03</span>
+                <a class = 'text-white text-decoration-none' 
+                href="#contact">Contact</a>
+              </li>
+            </ul>
+        </div>
+
+      </nav>
+    </nav>
     <section class = 'about text-white d-flex'>
-      <span class = 'number1 numbers position-absolute poppins'>01</span>
-      <span class = 'position-absolute poppins hello' id = 'hello'>Hello I'm</span>
-      <i class='red-ball position-absolute rounded-circle'>
-      </i>
       <h1 class='position-absolute playfair-display name'>
         Elisha Kyakopo
       </h1>
@@ -67,29 +67,27 @@
       </i>
       <ul class='d-flex position-absolute list-unstyled'>
         <li>
-          <a target = 'blank' href = '' 
+          <a target = 'blank' href = 'https://github.com/elisha2kyakpo1' 
           class='fa d-flex icon fa-github m-1 m-md-3 p-1 text-white text-decoration-none'></a>
         </li>
         <li>
-          <a target = 'blank' href = '' 
+          <a target = 'blank' href = 'https://twitter.com/Elisha1k' 
           class='fa icon d-flex fa-twitter m-1 m-md-3 p-1 text-white text-decoration-none'></a>
         </li>
         <li>
-          <a target = 'blank' href = '' 
+          <a target = 'blank' href = 'https://www.linkedin.com/in/elisha-kyakopo/' 
           class='fa icon d-flex fa-linkedin text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
            </a>
         </li>
         <li>
-          <a target = 'blank' href = '' 
+          <a target = 'blank' href = 'mailto:kyakopoe@gmail.com' 
           class='fa icon d-flex fa-envelope text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
            </a>
         </li>
       </ul>
     </section>
     <section class = 'portfolio d-flex text-white'>
-      <span class = 'number2 numbers position-absolute poppins'>02</span>
-      <span class = 'position-absolute poppins my-works'>My recent work</span>
-      <h1 class = 'playfair-display position-absolute' id = "portfolio">Portfolio</h1>
+      <h1 class = 'playfair-display position-absolute' id = "projects">Projects</h1>
     </section>
   </header>  
   <main>
@@ -123,12 +121,7 @@
             </a>   
         </div>
       </div>
-    </section>
-    <section class="projects mt-3 text-white">
-      <div class = 'grid-full order-2'>
-        <div class = 'ruby-game'>
-        </div>
-      </div>
+
       <div class = 'grid-full order-1'>
         <div class="tic-tac-toe position-relative">
           <h1 class="poppins">
@@ -162,19 +155,40 @@
         </div>
       </div>
     </section>
+
     <section class="projects mt-1 text-white">
       <div class = 'grid-two-rows'>
-        <div class = 'shop-project position-relative'>
-          <span class = 'author mx-2 p-2 position-absolute'>
-            The Next Web page
-          </span>
-        </div>
-        <div class = 'shop-project-mini position-relative'>
-          <span class = 'author mx-2 p-2 position-absolute'>
-            Telegram bot
-          </span>
+        <div class="twitter-redesign position-relative">
+          <h1 class="poppins">
+            A twitter clone
+          </h1>
+          <div class = 'd-flex flex-row poppins'>
+            <div class = 'languages mx-2 p-2 col-2 d-flex justify-content-center'>
+              Ruby on Rails
+            </div>
+            <div class = 'project-description mx-2 p-2 col justify-content-center'>
+              A twitter like app with features of follow/unfollow, like and sharing tweets. 
+            </div> 
+          </div>
+          <a target = 'blank'
+              href = ''
+              class='live position-absolute p-2 d-flex justify-content-evenly
+              align-items-baseline text-decoration-none'>
+              See live
+              <i class = 'fa fa fa-external-link'></i>
+          </a>  
+
+          <a target = 'blank'
+            href = ''
+            class='github position-absolute p-2 d-flex justify-content-evenly
+            align-items-baseline text-decoration-none'>
+            See source
+            <i class = 'fa fa-github'></i>
+          </a>         
+                  
         </div>
       </div>
+
       <div class = 'grid-full'>
         <div class="shop-main-project position-relative">
           <h1 class="poppins">
@@ -207,8 +221,9 @@
         </div>
       </div>
     </section>
+ 
     <section class="about-me p-1 p-md-5 poppins text-white">
-      <div class = 'my-knowledge' id = 'services'>
+      <div class = 'my-knowledge' id = 'projects'>
         <div class = 'knowledge d-flex flex-column p-3'>
             <div class="box box-green rounded-circle p-3 d-flex 
             justify-content-center align-items-center">
@@ -265,13 +280,11 @@
         </div>  
       </div>
       <div class = 'description'>
-        <span class = 'number1 numbers'>03</span>   
-        <span class = 'my-works'>some words</span>
         <h1 class = 'playfair-display'>About me</h1>   
-        <p>Full Stack Developer’ 
-          Self-motivated and fast learner proficient with
-          Linux and Windows Operating Systems. Looking to develop software that can help
-           peoples’ lives to be easier.
+        <p>Hi,I'm a Full Stack Engineer who loves to build beautiful and
+           smooth websites to solve complex business problems.
+           I excel in working hard and smart to bring high quality
+            and high satisfaction outcomes for my clients.
         </p>  
         <span class = 'get-my-resume mt-5 d-none d-md-flex'>
           <a target = 'blank' href = ''>
@@ -283,30 +296,7 @@
     </section>
     <section class="contact position-relative text-white poppins pt-2">
       <div id = 'contact' class = 'd-flex align-items-baseline flex-column flex-md-row'>
-        <div>
-          <span class = 'number1 numbers'>04</span>  
-          <h6>Interested in collaborating</h6> 
-        </div>        
-        <ul class='d-flex list-unstyled justify-content-evenly'>
-          <li>
-            <a target = 'blank' href = '' 
-            class='fa d-flex fa-github icon m-1 m-md-3 p-1 text-white text-decoration-none'></a>
-          </li>
-          <li>
-            <a target = 'blank' href = '' 
-            class='fa d-flex fa-twitter icon m-1 m-md-3 p-1 text-white text-decoration-none'></a>
-          </li>
-          <li>
-            <a target = 'blank' href = '' 
-            class='fa d-flex fa-linkedin icon text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
-             </a>
-          </li>
-          <li>
-            <a target = 'blank' href = '' 
-            class='fa d-flex fa-envelope icon text-dark bg-white text-decoration-none m-1 m-md-3 p-1 rounded'>
-             </a>
-          </li>
-        </ul>
+
         <span class = 'get-my-resume mt-3 d-flex d-md-none mx-auto'>
           <a target = 'blank' href = ''>
             Get my resume
@@ -318,7 +308,7 @@
   </main>
   <footer class = 'd-flex mt-2 position-relative flex-column playfair-display justify-content-center'>
     <div class="d-flex align-items-center flex-column">
-      <span class = 'text-white'>&copy; 2020, Elisha Kyakopo</span>
+      <span class = 'text-white'>&copy; 2021, Elisha Kyakopo</span>
       <div class = 'text-white'>
         <ul class="list-unstyled d-flex flex-column flex-md-row">
           <li class = 'm-2'>Acknowledgments</li>
