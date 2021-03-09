@@ -1,9 +1,10 @@
 body {
-  background: #1a202c;
+  background: rgba(26, 32, 44, 0.5);
 }
 
 .poppins {
   font-family: 'Poppins', sans-serif;
+  margin-left: 50px;
 }
 
 .playfair-display {
@@ -168,8 +169,8 @@ header span.red {
   line-height: 400%;
 }
 
-.hidden-menu ul {
-  border-left: thin solid gray;
+.hidden-menu ul li:hover {
+  background-color: gray;
 }
 
 .hidden-menu li {
@@ -207,7 +208,10 @@ header span.red {
 .projects {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 600px;
+  gap: 15px;
+  grid-row-gap: 15px;
   margin-top: 600px;
+  box-shadow: 0, 0 5px lightgray;
 }
 
 .grid-two-rows,
@@ -299,6 +303,7 @@ div.languages,
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
 
+.twitter-redesign,
 .shop-main-project {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
@@ -307,7 +312,7 @@ div.languages,
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
 
-.shop-project-mini {
+.twitter-redesign {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
 
