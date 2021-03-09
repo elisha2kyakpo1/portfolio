@@ -2,19 +2,14 @@
 
 ## Portfolio Project
 
-## This is my on-going Personal portfolio project
+## About
 
-- The project uses tailwind CSS, which is a A utility-first CSS framework for
-  rapidly building custom designs.
+This is my personal website showcasing my work as a software developer. In this portifolio, you will see projects I have worked on and skills I have acquired.
 
----
-![tailwind](assets/images/tailwind.gif)
-
-----'
  Built With
 
-1. HTML
-2. tailwindcss
+1. HTML/CSS
+2. Bootstrap
 3. VScode
 4. Chrome Dev tools
 
@@ -27,7 +22,7 @@ Show your support
 Give a ⭐️ if you like this project!
 
 - 👯 I’m looking to collaborate on small and big projects
-- 💬 Ask me about SQL,Sass,CSS/HTML
-- 📫 How to reach me: [LindedIn](https://www.linkedin.com/in/elisha-kyakopo-009aa3197/)
+- 💬 Ask me about SQL, Ruby, Ruby on Rails, Sass, CSS/HTML
+- 📫 How to reach me: [LindedIn](https://www.linkedin.com/in/elisha-kyakopo/)
 
-- 📫 How to reach me:[twitter](@elisha1k)
+- 📫 How to reach me: [twitter](@elisha1k)
