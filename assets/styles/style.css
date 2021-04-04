@@ -37,6 +37,17 @@ header h1 {
   font-size: 110px;
 }
 
+.get-my-resume a,
+.get-my-resume a:visited {
+  width: 243px;
+  height: 27px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--header-red);
+  z-index: 100;
+}
+
 .nav-small li {
   list-style: none;
 }
@@ -89,13 +100,10 @@ header span.red {
   color: var(--header-red);
 }
 
-.red-ball {
-  width: 94px;
-  height: 94px;
-  left: 1017px;
-  top: 302px;
-  background: var(--header-red);
-  mix-blend-mode: lighten;
+.twitter {
+  background-image: url(/assets/images/twitter-capstone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .see-separator {
@@ -211,7 +219,7 @@ header span.red {
   gap: 15px;
   grid-row-gap: 15px;
   margin-top: 600px;
-  box-shadow: 0, 0 5px lightgray;
+  box-shadow: 0 0 5px lightgray;
 }
 
 .grid-two-rows,
@@ -233,10 +241,6 @@ header span.red {
 
 .second-project {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
-}
-
-.main-project {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
 
 .main-project h1 {
@@ -274,7 +278,6 @@ div.languages,
 }
 
 .projects .live {
-  
   left: 40px;
 }
 
@@ -411,17 +414,6 @@ footer {
   height: 108px;
   font-size: 18px;
   line-height: 27px;
-}
-
-.get-my-resume a,
-.get-my-resume a:visited {
-  width: 243px;
-  height: 27px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  color: var(--header-red);
-  z-index: 100;
 }
 
 .contact {
