@@ -262,11 +262,6 @@ header span.red {
 }
 
 div.languages,
-.author {
-  height: 40px;
-}
-
-div.languages,
 .author,
 .project-description {
   background: rgba(0, 0, 0, 0.5);
