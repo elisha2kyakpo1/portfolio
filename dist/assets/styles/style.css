@@ -1,5 +1,6 @@
 body {
   background: rgba(26, 32, 44, 0.5);
+  overflow-x: hidden;
 }
 
 .poppins {
@@ -30,7 +31,7 @@ body {
 }
 
 header {
-  height: 600px;
+  height: 400px;
 }
 
 header h1 {
@@ -80,10 +81,10 @@ header span {
 }
 
 .introduction {
-  width: 564px;
   height: 108px;
-  top: 586px;
+  top: 500px;
   line-height: 27px;
+  margin-left: 0;
 }
 
 header div {
@@ -93,7 +94,7 @@ header div {
 header span.red {
   width: 113px;
   height: 21px;
-  top: 737px;
+  top: 637px;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -110,7 +111,7 @@ header span.red {
   width: 70px;
   height: 0;
   left: 680px;
-  top: 747px;
+  top: 647px;
   border: 1px solid var(--white);
 }
 
@@ -133,7 +134,7 @@ header span.red {
 
 /* header portfolio */
 .portfolio * {
-  left: 286px;
+  left: 450px;
 }
 
 .number2 {
@@ -145,7 +146,7 @@ header span.red {
 }
 
 .about ul {
-  top: 720px;
+  top: 600px;
   left: 760px;
   font-size: 30px;
 }
@@ -153,7 +154,7 @@ header span.red {
 .portfolio h1 {
   width: 430px;
   height: 110px;
-  top: 984px;
+  top: 776px;
   line-height: 100%;
 }
 
@@ -218,7 +219,7 @@ header span.red {
   grid-auto-rows: 600px;
   gap: 15px;
   grid-row-gap: 15px;
-  margin-top: 600px;
+  margin-top: 400px;
   box-shadow: 0 0 5px lightgray;
 }
 
@@ -399,16 +400,16 @@ footer {
 
 .description h1 {
   width: 474px;
-  height: 210px;
-  font-size: 110px;
+  height: 130px;
+  font-size: 90px;
   line-height: 100%;
 }
 
 .description p {
-  width: 564px;
   height: 108px;
   font-size: 18px;
   line-height: 27px;
+  margin-right: 100px;
 }
 
 .contact {
