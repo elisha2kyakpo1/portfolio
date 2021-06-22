@@ -1,0 +1,1 @@
+const data = document.querySelector('social');

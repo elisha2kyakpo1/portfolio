@@ -102,7 +102,7 @@ header span.red {
 }
 
 .twitter {
-  background-image: url(/assets/images/twitter-capstone.png);
+  background-image: url(../images/twitter-capstone.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -429,6 +429,15 @@ footer {
     left: 16px;
   }
 
+  .poppins {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
   .projects,
   .grid-two-rows,
   .grid-full,
@@ -479,7 +488,9 @@ footer {
   }
 
   .portfolio h1 {
-    top: 650px;
+    top: 520px;
+    left: 40px;
+    font-size: 60px;
   }
 
   .red-ball {
@@ -497,12 +508,12 @@ footer {
 
   header span,
   header div {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .description p {
     width: 271px;
-    height: 335px;
+    height: 250px;
     font-size: 18px;
     line-height: 27px;
   }
@@ -523,24 +534,37 @@ footer {
     top: 243px;
     width: 288px;
     height: 90px;
+    font-size: 1.1rem;
+  }
+
+  .social {
+    margin-top: 100px;
+  }
+
+  main {
+    margin-top: 150px;
   }
 
   header span.red {
-    top: 420px;
+    top: 460px;
   }
 
   .see-separator {
-    width: 70px;
+    width: 20px;
     top: 470px;
+    left: 140px;
   }
 
   .about ul {
-    /* top: 490px; */
-    left: 16px;
+    top: 450px;
+    left: 160px;
   }
 
   .main-project h1 {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 40px;
   }
 
   .hidden-menu .red-ball {
