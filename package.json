@@ -13,7 +13,10 @@
     "stylelint-scss": "^3.19.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
