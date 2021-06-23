@@ -30,10 +30,6 @@ body {
   justify-content: flex-end;
 }
 
-header {
-  height: 400px;
-}
-
 header h1 {
   font-size: 110px;
 }
@@ -234,7 +230,6 @@ header span.red {
   grid-auto-rows: 600px;
   gap: 15px;
   grid-row-gap: 15px;
-  margin-top: 200px;
   box-shadow: 0 0 5px lightgray;
 }
 
@@ -263,8 +258,9 @@ header span.red {
   font-weight: 300;
   font-size: 60px;
   line-height: 80%;
-  margin: 50px;
+  margin-bottom: 50px;
   z-index: 100;
+  color: #222123;
 }
 
 .author {
@@ -352,8 +348,6 @@ footer {
   opacity: 0.5;
 }
 
-.footer 
-
 .knowledge {
   height: 245px;
   width: 245px;
@@ -438,10 +432,18 @@ footer {
 }
 
 /* mobile */
-@media (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .about *,
   section.portfolio * {
     left: 16px;
+  }
+
+  .projects {
+    margin-top: 460px;
+  }
+
+  .main-project {
+    margin-top: 50px;
   }
 
   .poppins {
@@ -507,13 +509,6 @@ footer {
     font-size: 60px;
   }
 
-  .red-ball {
-    top: 76px;
-    left: 255px;
-    width: 50px;
-    height: 50px;
-  }
-
   .numbers {
     font-size: 50px;
     width: 41px;
@@ -575,7 +570,7 @@ footer {
   }
 
   .main-project h1 {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 0;
     margin-right: 0;
     font-size: 40px;
@@ -608,8 +603,7 @@ footer {
   }
 
   .playfair-display {
-    height: 60px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .my-knowledge {
@@ -621,6 +615,10 @@ footer {
   .my-knowledge {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 70px;
+  }
+
+  .projects {
+    margin-top: 450px;
   }
 
   .contact ul {
