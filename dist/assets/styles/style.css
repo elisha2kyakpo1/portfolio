@@ -178,15 +178,15 @@ header span.red {
 }
 
 .hidden-menu {
-  right: 30px;
-  top: 42px;
+  color: #000;
+  top: 49px;
   display: none;
   z-index: 100;
   font-weight: 400;
-  width: 250px;
-  height: 356px;
+  width: 100%;
   font-size: 16px;
   line-height: 400%;
+  background-color: #fff;
 }
 
 .hidden-menu ul li:hover {
@@ -337,7 +337,6 @@ div.languages,
   grid-template-columns: repeat(2, 1fr);
 }
 
-.hidden-menu,
 .knowledge,
 footer {
   background: var(--box-color);
@@ -440,6 +439,10 @@ footer {
 
   .projects {
     margin-top: 460px;
+  }
+
+  header {
+    height: 60px;
   }
 
   .main-project {
