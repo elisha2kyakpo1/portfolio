@@ -17,7 +17,7 @@ body {
 }
 
 :root {
-  --header-red: #db4747;
+  --header-red:#df5890;
   --white: #fff;
   --box-color: #222123;
 }
@@ -47,6 +47,19 @@ header h1 {
 
 .nav-small li {
   list-style: none;
+}
+
+.logo1 {
+  font-size: 50px;
+  margin: auto 0;
+}
+
+.logo,
+.logo1 {
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #df5890;
 }
 
 .nav-small li a {
@@ -177,8 +190,15 @@ header span.red {
   line-height: 24px;
 }
 
+.hidden-menu * {
+  color: #222123;
+  background-color: #fff;
+  width: 100%;
+  justify-content: flex-end;
+}
+
 .hidden-menu {
-  color: #000;
+  color: #7d7c84;
   top: 49px;
   display: none;
   z-index: 100;
@@ -186,7 +206,6 @@ header span.red {
   width: 100%;
   font-size: 16px;
   line-height: 400%;
-  background-color: #fff;
 }
 
 .hidden-menu ul li:hover {
