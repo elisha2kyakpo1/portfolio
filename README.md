@@ -13,7 +13,7 @@ This is my personal website showcasing my work as a software developer. In this 
 3. VScode
 4. Chrome Dev tools
 
-[Live Demo](https://elisha2kyakpo1.github.io/portifolioProject/)
+[Live Demo](https://elishak.netlify.app/)
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
