@@ -190,30 +190,40 @@ header span.red {
   line-height: 24px;
 }
 
-.hidden-menu * {
-  color: #222123;
+.hidden-menu2 {
+  justify-content: center;
   background-color: #fff;
   width: 100%;
   justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+.hidden-menu2 li {
+  border-top: 1px solid #7d7c84;
+}
+
+.hidden-menu2 li a {
+  color: #222123;
+  margin-left: 30px;
 }
 
 .hidden-menu {
   color: #7d7c84;
-  top: 49px;
+  top: 60px;
   display: none;
   z-index: 100;
   font-weight: 400;
   width: 100%;
   font-size: 16px;
-  line-height: 400%;
+  line-height: 300%;
 }
 
 .hidden-menu ul li:hover {
   background-color: gray;
 }
 
-.hidden-menu li {
-  padding-right: 30px;
+.hidden-menu2 li a:hover {
+  color: #fff;
 }
 
 .hidden-menu .numbers {
