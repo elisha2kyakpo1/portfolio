@@ -1,6 +1,6 @@
 body {
   background: rgba(26, 32, 44, 0.5);
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .poppins {
@@ -139,34 +139,9 @@ header span.red {
   border: 1px solid var(--white);
 }
 
-.numbers {
-  width: 82px;
-  height: 150px;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 100px;
-  text-align: right;
-  color: var(--white);
-  opacity: 0.2;
-}
-
-.number1 {
-  left: 447px;
-  top: 210px;
-  line-height: 150px;
-}
-
 /* header portfolio */
 .portfolio * {
   left: 450px;
-}
-
-.number2 {
-  width: 116px;
-  height: 80px;
-  top: 909px;
-  left: 169px;
-  line-height: 80%;
 }
 
 .about ul {
@@ -190,6 +165,11 @@ header span.red {
   line-height: 24px;
 }
 
+.fixed-nav {
+  /* position: fixed;s */
+  top: 0;
+}
+
 .hidden-menu2 {
   justify-content: center;
   background-color: #fff;
@@ -210,6 +190,7 @@ header span.red {
 .hidden-menu {
   color: #7d7c84;
   top: 60px;
+  left: -0.8px;
   display: none;
   z-index: 100;
   font-weight: 400;
@@ -236,17 +217,6 @@ header span.red {
   font-weight: 400;
 }
 
-.menu-md {
-  width: 39px;
-  height: 24px;
-  right: 30px;
-  top: 267px;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: right;
-  transform: rotate(90deg);
-}
-
 /* projects */
 .projects,
 .grid-two-rows,
@@ -255,7 +225,7 @@ header span.red {
 }
 
 .projects {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2fr, 1fr);
   grid-auto-rows: 600px;
   gap: 15px;
   grid-row-gap: 15px;
@@ -378,7 +348,7 @@ footer {
 
 .knowledge {
   height: 245px;
-  width: 245px;
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -474,6 +444,15 @@ footer {
     height: 60px;
   }
 
+  .div-fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+  }
+
   .main-project {
     margin-top: 50px;
   }
@@ -501,6 +480,7 @@ footer {
   }
 
   .hamburger-icon {
+    cursor: pointer;
     width: 30px;
     height: 1px;
     right: 30px;
@@ -536,7 +516,7 @@ footer {
   }
 
   .portfolio h1 {
-    top: 520px;
+    top: 480px;
     left: 40px;
     font-size: 60px;
   }
@@ -631,7 +611,7 @@ footer {
   }
 
   footer {
-    height: 300px;
+    height: 200px;
   }
 
   .playfair-display {
@@ -645,7 +625,7 @@ footer {
 
 @media (min-width: 767px) and (max-width: 1023px) {
   .my-knowledge {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2fr, 1fr);
     margin-top: 70px;
   }
 
