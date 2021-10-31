@@ -4,9 +4,26 @@
   height: 100vh;
 }
 
+.my-name {
+  left: 15px;
+  top: 15px;
+  z-index: 5;
+}
+
+.initial,
+.my-name {
+  color: #164e63;
+}
+
 .skills {
   padding: 65px 15px 4px;
   position: relative;
+}
+
+.resume,
+.resume:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .picture {
@@ -152,7 +169,7 @@ li {
   font-family: 'Inter', sans-serif; 
 }
 .pink-text {
-  color: #df5890;
+  color: #164e63;
 }
 .dark {
   color: #1c1624;
@@ -280,6 +297,11 @@ footer {
       gap: 0px;
   }
 
+  .my-name {
+    left: 20px;
+    top: 30px;
+    z-index: 5;
+  }
 
 
   h1 {
