@@ -4,6 +4,11 @@
   height: 100vh;
 }
 
+
+.logo-img {
+  width: 50px;
+}
+
 .my-name {
   left: 15px;
   top: 15px;
