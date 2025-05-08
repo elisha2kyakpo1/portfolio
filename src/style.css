@@ -83,7 +83,7 @@ input:focus, textarea:focus, select:focus, button:focus{
 }
 
 #rocket {
-  height: 100px;
+  height: 80px;
 }
 
 nav {
@@ -101,7 +101,7 @@ nav {
 }
 
 
-.navbar-toggler{
+.navbar-toggler {
   cursor: pointer;
 }
 
@@ -112,11 +112,11 @@ nav {
 
 }
 
-.links-nav li{
+.links-nav li {
   list-style: none;
 }
 
-.links-nav li a{
+.links-nav li a {
   color: #1c1624;
 }
 
